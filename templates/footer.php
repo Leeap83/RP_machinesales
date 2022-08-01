@@ -20,9 +20,9 @@
                         </span>
                     </div>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/rp.machinery.sales/"><img src="/images/facebook.png" alt="Facebook"></a>
-                        <a href="mailto:enquiries@rpmachinerysales.co.uk"><img src="/images/email.png" alt="Email"></a>
-                        <a href="tel:07792715169"><img src="/images/telephone-call.png" alt="Telephone"></a>
+                        <a href="https://www.facebook.com/rp.machinery.sales/"><img src="images/facebook.png" alt="Facebook"></a>
+                        <a href="mailto:enquiries@rpmachinerysales.co.uk"><img src="images/email.png" alt="Email"></a>
+                        <a href="tel:07792715169"><img src="images/telephone-call.png" alt="Telephone"></a>
                     </div>                                  
                 </div> 
                                   

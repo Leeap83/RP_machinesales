@@ -7,15 +7,15 @@
                         <img src="/images/logos-05.png" width="130" height="auto" alt="logo">
                     </a> 
                     <div class="foot-grid">
-                        <span>
-                            <a href="tractors.php">Tractors</a> <span>|</span>
-                            <a href="telehandlers.php">Telehandlers</a> <span>|</span>
-                            <a href="machinery.php">Machinery</a> <span>|</span>
-                            <a href="exports.php">Exports</a> <span>|</span>
+                        <span class="flinks">
+                            <a href="tractors.php">Tractors</a> <span class="mob">|</span>
+                            <a href="telehandlers.php">Telehandlers</a> <span class="mob">|</span>
+                            <a href="machinery.php">Machinery</a> <span class="mob">|</span>
+                            <a href="exports.php">Exports</a> <span class="mob">|</span>
                         </span>
-                        <span>
-                            <a href="privacy.php">Privacy Policy</a> <span>|</span>
-                            <a href="terms.php">Terms of Business</a> <span>|</span>
+                        <span class="flinks">
+                            <a href="privacy.php">Privacy Policy</a> <span class="mob">|</span>
+                            <a href="terms.php">Terms of Business</a> <span class="mob">|</span>
                             <a href="login.php">Admin</a>
                         </span>
                     </div>

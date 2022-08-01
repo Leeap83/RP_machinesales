@@ -11,7 +11,7 @@ session_start();
         <title>RP MAchinery Sales</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/b42b424358.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,7 +23,7 @@ session_start();
         <header>
             <nav class="navbar navbar-expand-lg" id="mainNav">
                 <div class="container">
-                    <a class="navbar-brand" href="index.php"><img src="assets/images/logos-06.png" width="400" alt="Logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logos-06.png" width="400" alt="Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars ms-1"></i>
                     </button>

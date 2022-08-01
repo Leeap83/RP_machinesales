@@ -1,6 +1,7 @@
 <?php 
     include('templates/header.php');
-    include('includes/dbh.inc.php'); 
+    include('includes/dbh.inc.php');
+    require('dotenv').config(); 
 ?>
 
 <main>

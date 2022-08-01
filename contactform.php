@@ -1,4 +1,6 @@
 <?php
+    require('dotenv').config(); 
+
     if (isset($_POST['submit'])) {
         $mailTo = $_POST['name'];
         $subject = $_POST['subject'];
@@ -9,7 +11,7 @@
         $headers = "From:" . $mailFrom;
         $txt = "You have recieved an email from " . $name . "\n\n" . $message;
 
-        $secretKey = "";
+        $secretKey = process.env.SECRET_KEY;
         $responseKey = $_POST['g-recaptcha-response'];
         $UserIP = $_SERVER['REMOTE_ADDR'];
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";

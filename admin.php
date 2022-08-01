@@ -14,6 +14,7 @@ include('includes/dbh.inc.php');
                             <div class="admin_options">
                                 <a href="add-product.php" class="btn">Add Product</a>
                                 <a href="edit-product.php" class="btn">Edit Product</a>
+                                <a href="upload.php" class="btn">Image Upload</a>
                             </div>    
                         </div>
                         

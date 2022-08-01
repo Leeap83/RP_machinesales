@@ -13,11 +13,12 @@
                         <div class="contact_form">
                             <p>We would love to hear from you, give us a call or fill out the form below and we will be in touch.</p>
                             <form action="contactform.php" method="POST">
+                                <input type="text" name="_honey" style="display:none;">
                                 <input type="text" name="name" placeholder="Full Name" required>
                                 <input type="text" name="email" placeholder="Your Email" required>
                                 <input type="text" name="subject" placeholder="Subject" required>
                                 <textarea rows="5" name="message" placeholder="Message" required></textarea>
-                                <!-- <div class="g-recaptcha" data-sitekey="6Lcu0S8hAAAAAGu4M8I1qpORgFdEFPjLyONakzxE"></div> -->
+                                
                                 <button type="submit" name="submit">SEND MESSAGE</button>
                             </form>
                         </div>

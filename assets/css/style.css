@@ -32,7 +32,7 @@ nav li a:hover {color: #F9D342;}
 /* hero section */
 .hero-text {text-align: center;padding: 7em 0;color: #fff;font-size: 1.2em;}
 .hero-text h1 {font-size: 2em;}
-.hero_section {background: #292826 url(assets/images/hero_img.png);height: 60vh;opacity: 0.9;background-position: center!important;background-size: 600px;background-repeat: no-repeat!important;}
+.hero_section {background: #292826 url(/images/hero_img.png);height: 60vh;opacity: 0.9;background-position: center!important;background-size: 600px;background-repeat: no-repeat!important;}
 
 
 /* about */
@@ -68,10 +68,10 @@ nav li a:hover {color: #F9D342;}
 .btn_1 span {border-radius: 6px;display: block;padding: 1em 0;color: #292826;}
 
 /* Image section */
-.exports-sec {background: url(assets/images/export.jpg);}
-.tele-sec {background: url(assets/images/telehandler.jpg);}
-.machinery-sec {background: url(assets/images/POMF3247.JPG);}
-.tractors-sec {background: url(assets/images/TQBD0091.JPG);}
+.exports-sec {background: url(/images/export.jpg);}
+.tele-sec {background: url(/images/telehandler.jpg);}
+.machinery-sec {background: url(/images/POMF3247.JPG);}
+.tractors-sec {background: url(/images/TQBD0091.JPG);}
 
 /* Admin Panel */
 .admin_options {display: grid;grid-gap: 2em;}
@@ -234,7 +234,7 @@ img.hover-shadow {transition: 0.3s;}
 @media only screen and (min-width: 800px) {
   .about-grid {grid-template-columns: repeat(3, 1fr);}
   .sectors-grid {grid-template-columns: repeat(2, 1fr);}
-  .hero_section {background: #292826 url(assets/images/hero_img.png);height: 60vh;opacity: 0.9;background-position: center!important;background-size: cover!important;background-repeat: no-repeat!important;}
+  .hero_section {background: #292826 url(/images/hero_img.png);height: 60vh;opacity: 0.9;background-position: center!important;background-size: cover!important;background-repeat: no-repeat!important;}
   .footer-links {display: grid; grid-template-columns: 250px 5fr 2fr;}
   .exports-section .contain {border-radius: 8px;}
   .product_grid {display: grid;grid-template-columns: repeat(4, 1fr);}

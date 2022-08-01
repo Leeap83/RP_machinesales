@@ -10,15 +10,21 @@
                 <div class="alert alert-<?php echo $status;?>"><?php echo $statusMsg; ?></div>
             <?php }?>
             <div class="form_section">
-                <form method="post" action="" enctype="multipart/form-data">
-                    <label for="">Image</label>
-                    <input type="file" name="image">
-                    <label for="">Title</label>
-                    <input type="text" name="title">
-                    <label for="">Description</label>
-                    <input type="text" name="description">
-                    <input type="submit" name="submit" value="upload">
-                </form>
+                <h1>Upload Images to Imugular</h1>
+                <div class="back_btn">
+                    <a href="admin.php" class="btn btn_bk">Back</a>
+                </div>
+                <div class="form">
+                    <form method="post" action="" enctype="multipart/form-data">
+                        <label for="image" style="color:#fff;">Image</label>
+                        <input type="file" name="image">
+                        <label for="title" style="color:#fff;">Title</label>
+                        <input type="text" name="title">
+                        <label for="description" style="color:#fff;">Description</label>
+                        <input type="text" name="description">
+                        <input type="submit" name="submit" value="upload">
+                    </form>
+                </div>
             </div>
             <?php 
                 if (!empty($imgurData)) { ?>

@@ -4,7 +4,7 @@
             <div class="contain">
                 <div class="hero-text">
                     <h1>Welcome to RP Machinery Sales</h1>
-                    <h2>Excelent range of Used Tractors, Telescopic Handlers and Machinery</h2>
+                    <h2>Excellent range of Used Tractors, Telescopic Handlers and Machinery</h2>
                 </div>
             </div>
         </section>
@@ -25,7 +25,7 @@
                         <div class="about-item">
                             <img src="images/global-shipping.png" width="80" height="80" alt="Global">
                             <h2>INTERNATIONAL</h2>
-                            <p>If you require a UK delivery or an International shipment, we are can arrange delivery or export of your machinery. </p>
+                            <p>If you require a UK delivery or an international shipment, we can arrange it. </p>
                         </div>
                     </div>
                 </div>
@@ -75,9 +75,9 @@
                     <div class="sectors-grid">
                         <div class="about bg_black" id="about-us">
                             <h2>Who are we?</h2>
-                            <p>RP Machinery is a Shropshire based family business that specialise in selling used machinery delivered accross the UK and internationaly.</p>
+                            <p>RP Machinery is a Shropshire based family business that specialises in selling used machinery. We deliver across the UK and internationally.</p>
                             <p>Our stock is regularly changing, so if you can't find what you are looking for on our website, then please don't hesitate to get in touch - just because it's not listed doesn't mean we don't have it. </p>
-                            <p>Alternatively, you follow us on <a href="https://www.facebook.com/rp.machinery.sales/">Facebook</a> for recent posts and all our latset product updates.</p>    
+                            <p>Alternatively, you can follow us on <a href="https://www.facebook.com/rp.machinery.sales/">Facebook</a> for recent posts and all our latest product updates.</p>    
                         </div>
                         
                         <div class="facebook">

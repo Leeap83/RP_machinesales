@@ -79,9 +79,12 @@ nav li a:hover {color: #F9D342;}
 .admin_options .btn:hover {background-color: #F9D342;}
 .admin_grid p {text-align: center; color: #fff;}
 .back_btn {max-width: 300px;margin: auto;text-align: center; padding-bottom: 1em;}
-.back_btn .btn_bk {max-width: 288px;border-radius: 8px!important;margin: auto!important;padding: 10px 40px;font-weight: 700; background: #fff; border: 1px solid #292826;}
+.back_btn .btn_bk {max-width: 288px;border-radius: 8px!important;margin: auto!important;padding: 10px 40px;font-weight: 700; background: #F9D342; border: 1px solid #292826;}
 select {height: 36px;}
 .disabled {color: #757790;}
+.cont_btn {text-align: left; padding-bottom: 1em;}
+.cont_btn .contact_btn {max-width: 288px;border-radius: 8px!important;margin: auto!important;padding: 10px 40px;font-weight: 700; background: #fff; border: 1px solid #292826;}
+
 
 
 /* product section */

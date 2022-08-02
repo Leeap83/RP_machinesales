@@ -37,7 +37,9 @@ if (isset($_GET['id'])) {
                     } else {
                         echo '<p><strong>Sold</strong></p>';
                     }?>
-                    
+                    <div class="cont_btn">
+                        <a href="contact.php" class="btn contact_btn">Contact Us</a>
+                    </div>
                 </div>
                 <div class="product_image">
                     <?php if ($result_check['video']) {?>

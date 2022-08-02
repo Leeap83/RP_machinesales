@@ -47,7 +47,7 @@ nav li a:hover {color: #F9D342;}
 
 /* sectors */
 .sectors-grid {display: grid;text-align: center;grid-gap: 2em;}
-.sector-item {transition: 0.3s;background: #f1f1f1;padding: 3em 1em;height: 400px;opacity: 0.8;border-radius: 8px;position: relative;}
+.sector-item {transition: 0.3s;background: #f1f1f1;padding: 3em 1em;height: 400px;opacity: 0.8;border-radius: 8px;position: relative; max-width: 400px;margin: auto;width: 400px;}
 .sector-item:hover {opacity: 1;}
 .sector-item {background-position: center!important;background-size: cover!important;background-repeat: no-repeat!important;}
 .item-text {width: 100%;margin: 0 auto;border-radius: 8px;bottom: 0;left: 0;position: absolute;}

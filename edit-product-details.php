@@ -44,9 +44,9 @@ $row = mysqli_fetch_assoc($result);
                                             <label>Category</label>
                                             <select name="category">
                                                 <option value="<?= $products['category']; ?>"><?= $products['category']; ?></option>
-                                                <option value="tractors">Tractors</option>
-                                                <option value="telehandlers">Telehandlers</option>
-                                                <option value="machinery">Machinery</option>
+                                                <option value="Tractors">Tractors</option>
+                                                <option value="Telehandlers">Telehandlers</option>
+                                                <option value="Machinery">Machinery</option>
                                             </select>
                                         </div>
                                         <div>

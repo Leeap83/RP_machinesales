@@ -3,7 +3,7 @@
         <div class="pad">
             <div class="contain">
                 <div class="footer-links">
-                    <a href="/admin" class="footer-logo">
+                    <a href="/" class="footer-logo">
                         <img src="/images/logos-05.png" width="130" height="auto" alt="logo">
                     </a> 
                     <div class="foot-grid">

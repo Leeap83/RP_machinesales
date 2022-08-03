@@ -48,9 +48,12 @@ $row = mysqli_fetch_assoc($result);
                                             <td class="mob">£<?= number_format($row['price']) ?></td>
                                             <?php if ($row['in_stock'] != '1') {
                                                 echo '<td>No</td>';
+                                            } elseif ($row['in_stock'] == '2') {
+                                                echo '<td>Coming Soon</td>';
                                             } else {
                                                 echo '<td>Yes</td>';
-                                            } ?>
+                                            } 
+                                            ?>
                                             <td><a class="btn edit_btn" href="edit-product-details.php?id=<?= $row['id'] ?>">Edit</a></td>
                                             <td><a class="btn del_btn" href="delete.php?id=<?= $row['id'] ?>" >Delete</a></td>
                                         </tr>

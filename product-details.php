@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
                     <h1><?= $result_check['product_name']?></h1>
                     <p><strong>Brand</strong>: <?= $result_check['product_brand']?></p>
                     <p><strong>Category</strong>: <?= $result_check['category']?></p>
-                    <p><strong>Description</strong>: <?= $result_check['description']?></p>
+                    <textarea><?= $result_check['description']?></textarea>
                     <p><strong>Price</strong>: £<?= number_format($result_check['price']) ?></p>
                     <p><strong>Hours</strong>: <?= number_format($result_check['hours']) ?></p>
                     <p><strong>Year</strong>: <?= $result_check['years']?></p>

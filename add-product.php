@@ -31,7 +31,7 @@ $row = mysqli_fetch_assoc($result);
                                     <option value="telehandlers">Telehandlers</option>
                                     <option value="machinery">Machinery</option>
                                 </select>
-                                <input type="text" name="description" placeholder="Description">
+                                <textarea name="description" id="description" placeholder="Description"></textarea>
                                 <input type="text" name="price" placeholder="Price">
                                 <input type="text" name="hours" placeholder="Hours">
                                 <input type="text" name="years" placeholder="Year">

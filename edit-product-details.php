@@ -60,7 +60,7 @@ $row = mysqli_fetch_assoc($result);
                                         </div>
                                         <div>
                                             <label>Description</label>
-                                            <input type="textarea" name="description" placeholder="Description" value="<?= $products['description']; ?>">
+                                            <textarea name="description" id="description" placeholder="Description"><?= $products['description']; ?></textarea>
                                         </div>
                                         <div>  
                                             <label>Price</label>

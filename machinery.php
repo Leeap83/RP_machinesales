@@ -16,12 +16,18 @@ $resultCheck = mysqli_num_rows($result); ?>
                             <a href="product-details.php?id=<?= $row['id'] ?>">
                                 <div class="product_item card">
                                     <?php
-                                    if ($row['in_stock'] != '1') {?>                                
+                                    if ($row['in_stock'] == '0') {?>                                
                                         <div class="img_container">
                                             <span>SOLD</span> 
                                             <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
                                         </div>
                                     <?php
+                                    } elseif ($row['in_stock'] == '2') {?>
+                                        <div class="img_container">
+                                            <span>COMING SOON</span> 
+                                            <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
+                                        </div>
+                                        <?php
                                     } else {?>
                                         <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
                                     <?php

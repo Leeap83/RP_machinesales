@@ -35,26 +35,34 @@
             <div class="pad">
                 <div class="contain">
                     <div class="sectors-grid">
-                        <div class="sector-item tractors-sec">
-                            <div class="item-text bg_black">
-                                <h2>Tractors</h2>
+                        <a href="tractors.php">
+                            <div class="sector-item tractors-sec">
+                                <div class="item-text bg_black">
+                                    <h2>Tractors</h2>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sector-item machinery-sec">
-                            <div class="item-text bg_black">
-                                <h2>Machinery</h2>
-                            </div>                        
-                        </div>
-                        <div class="sector-item tele-sec">
-                            <div class="item-text bg_black">
-                                <h2>Telehandlers</h2>
-                            </div>                        
-                        </div>
-                        <div class="sector-item exports-sec">
-                            <div class="item-text bg_black">
-                                <h2>Exports</h2>
-                            </div>                    
-                        </div>
+                        </a>
+                        <a href="machinery.php">
+                            <div class="sector-item machinery-sec">
+                                <div class="item-text bg_black">
+                                    <h2>Machinery</h2>
+                                </div>                        
+                            </div>
+                        </a>
+                        <a href="telehandlers.php">
+                            <div class="sector-item tele-sec">
+                                <div class="item-text bg_black">
+                                    <h2>Telehandlers</h2>
+                                </div>                        
+                            </div>
+                        </a>
+                        <a href="exports.php">
+                            <div class="sector-item exports-sec">
+                                <div class="item-text bg_black">
+                                    <h2>Exports</h2>
+                                </div>                    
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>        

@@ -53,49 +53,49 @@ if (isset($_GET['id'])) {
                     <div class="image_container">
                         <div class="column">
                             <?php if ($result_check['main_image']){?>
-                                <img src="<?= $result_check['main_image']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['main_image']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_one']){?>
-                                <img src="<?= $result_check['image_one']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_one']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_two']){?>
-                                <img src="<?= $result_check['image_two']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_two']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_three']){?>
-                                <img src="<?= $result_check['image_three']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_three']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_four']){?>
-                                <img src="<?= $result_check['image_four']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_four']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_five']){?>
-                                <img src="<?= $result_check['image_five']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_five']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_six']){?>
-                                <img src="<?= $result_check['image_six']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_six']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
                             <?php
                             }?>  
                         </div>
                         <div class="column">
                             <?php if ($result_check['image_seven']){?>
-                                <img src="<?= $result_check['image_seven']; ?>" alt="<?= $result_check['product_name'];?>" style="width:180px; height:180px;" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                                <img src="<?= $result_check['image_seven']; ?>" width="180" height="180" alt="<?= $result_check['product_name'];?>" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
                             <?php
                             }?>
                         </div>

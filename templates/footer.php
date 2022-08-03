@@ -16,7 +16,16 @@
                         <span class="flinks">
                             <a href="privacy.php">Privacy Policy</a> <span class="mob">|</span>
                             <a href="terms.php">Terms of Business</a> <span class="mob">|</span>
-                            <a href="login.php">Admin</a>
+                            <?php
+                            if (isset($_SESSION['userId'])) {
+                                if ($row['superuser'] === '1') {?>
+                                    <a href="admin.php">Admin</a>
+                                    <?php
+                                } else {?>
+                                    <a href="login.php">Admin</a>
+                                    <?php
+                                }
+                            }?>                            
                         </span>
                     </div>
                     <div class="social-links">

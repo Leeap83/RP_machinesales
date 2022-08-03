@@ -24,6 +24,12 @@ include('includes/dbh.inc.php');
                                             <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
                                         </div>
                                     <?php
+                                    } elseif ($row['in_stock'] != '2') {?>
+                                        <div class="img_container">
+                                            <span>COMING SOON</span> 
+                                            <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
+                                        </div>
+                                        <?php
                                     } else {?>
                                         <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
                                     <?php

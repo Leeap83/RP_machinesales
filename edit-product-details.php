@@ -54,7 +54,8 @@ $row = mysqli_fetch_assoc($result);
                                             <select name="in_stock">
                                                 <option value="<?= $products['in_stock']; ?>"><?= $products['in_stock']; ?></option>
                                                 <option value="1">Yes</option>
-                                                <option value="0">No</option>
+                                                <option value="0">Sold</option>
+                                                <option value="2">Coming Soon</option>
                                             </select>
                                         </div>
                                         <div>

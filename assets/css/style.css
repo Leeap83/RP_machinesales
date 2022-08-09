@@ -89,7 +89,7 @@ select {height: 36px;}
 
 /* product section */
 .product-section {background: #fff;padding-bottom: 3em;}
-.product-section h1 {text-align: center; padding: 2em 2em 1em;}
+.product-section h1 {text-align: center; padding: 2em 2em 0;}
 .product-section h2 {text-align: center;}
 .product-section a {text-decoration: none;}
 .product_grid {display: grid;grid-template-columns: 1fr;grid-gap: 1em;max-width: 1200px;margin: auto; padding: 10px;}
@@ -108,6 +108,11 @@ select {height: 36px;}
 .product_details_section {padding: 2em 2em 1em;}
 .product_content h1 {padding: 0; text-align: left;}
 .product_image h3 {text-align: left;}
+
+.search-field{max-width: 350px;}
+.search_box {margin: auto; max-width: 800px; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;}
+.search_box .submit{ background: #f1f1f1;}
+.search_box .reset{ background: #F9D342;}
 
 /* edit product */
 .products {text-align: center;}

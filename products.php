@@ -6,11 +6,22 @@ include('includes/dbh.inc.php');
 <main>
     <div class="wrapper-main">
         <div class="product-section">
-            <h1>All Products</h1>  
-
+            <h1>All Products</h1>
+            <form action="products.php" method="POST">            
+                <input type="text"  class="search-field" name="search" placeholder="Search here...">
+                <div class="search_box">
+                    <input type="submit" class="btn back_btn submit">
+                    <input type="submit" class="btn back_btn reset" value="All Products">
+                </div>
+            </form>
                 <div class="product_grid">
                     <?php
-                    $sql = "SELECT * FROM products";
+                    if (isset($_POST['search'])){
+                        $search = $_POST['search'];
+                        $sql = "SELECT * FROM products WHERE product_name like '%$search%' or product_brand like '%$search%' or category like '%$search%'";
+                    } else {
+                        $sql = "SELECT * FROM products";
+                    }
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result);
                     if ($resultCheck > 0) {    
@@ -44,7 +55,7 @@ include('includes/dbh.inc.php');
                             <?php
                         }
                     } else {
-                        echo '<p>No Products</p>';
+                        echo '<p>No Products Found</p>';
                     }?>
                 </div>
         </div>

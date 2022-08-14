@@ -28,8 +28,6 @@ if (isset($_GET['id'])) {
                     <h1><?= $result_check['product_name']?></h1>
                     <p><strong>Brand</strong>: <?= $result_check['product_brand']?></p>
                     <p><strong>Category</strong>: <?= $result_check['category']?></p>
-                    <p><strong>Description</strong>:</p>
-                    <textarea><?= $result_check['description']?></textarea>
                     <p><strong>Price</strong>: £<?= number_format($result_check['price']) ?></p>
                     <p><strong>Hours</strong>: <?= number_format($result_check['hours']) ?></p>
                     <p><strong>Year</strong>: <?= $result_check['years']?></p>
@@ -38,6 +36,8 @@ if (isset($_GET['id'])) {
                     } else {
                         echo '<p><strong>Sold</strong></p>';
                     }?>
+                    <p><strong>Description</strong>:</p>
+                    <textarea disabled><?= $result_check['description']?></textarea>                    
                     <div class="cont_btn">
                         <a href="contact.php" class="btn contact_btn">Contact Us</a>
                     </div>

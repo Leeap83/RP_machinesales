@@ -116,8 +116,9 @@ select {height: 36px;}
 .search_box .submit{ background: #292826; color: #fff;}
 .search_box .reset{ background: #F9D342;}
 
-.price-filter {text-align: right; margin-right: 15%;}
-.price-filter a {color: #292826;}
+.filters {max-width: 1200px; margin: auto; display: flex;}
+.price-filter {right: 15%;position: absolute;}
+.filters a {color: #292826;}
 
 /* edit product */
 .products {text-align: center;}

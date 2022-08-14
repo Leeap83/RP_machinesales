@@ -118,7 +118,7 @@ select {height: 36px;}
 .search_box .reset{ background: #F9D342;}
 
 .filters {max-width: 1200px; margin: auto; display: flex;}
-.price-filter {right: 15%;position: absolute;}
+
 .filters a {color: #292826;}
 
 /* edit product */
@@ -264,6 +264,7 @@ textarea {width: 100%;height: 300px; border: transparent;}
   .product_details.contain {grid-template-columns: 1fr 1fr;}
   .image_container {display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap:1em;}
   .column img {width: 180px; height: 180px;}
+  .price-filter {right: 15%;position: absolute;}
 } 
 
 @media only screen and (max-width: 600px) {

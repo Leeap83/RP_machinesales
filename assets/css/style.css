@@ -117,8 +117,7 @@ select {height: 36px;}
 .search_box .submit{ background: #292826; color: #fff;}
 .search_box .reset{ background: #F9D342;}
 
-.filters {max-width: 1200px; margin: auto; display: grid;}
-
+.filters {max-width: 1200px; margin: auto; display: grid; padding: 0 2em;gap: 1em;}
 .filters a {color: #292826;}
 
 /* edit product */

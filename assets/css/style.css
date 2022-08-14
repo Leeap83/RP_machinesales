@@ -109,10 +109,15 @@ select {height: 36px;}
 .product_content h1 {padding: 0; text-align: left;}
 .product_image h3 {text-align: left;}
 
-.search-field{max-width: 350px;}
+/* search box */
+.search-form {display: flex; flex-wrap: wrap; padding: 2em; max-width: 1000px; margin: auto; gap: 1em; }
+.search-field{max-width: 600px;}
 .search_box {margin: auto; max-width: 800px; display: grid; grid-template-columns: 1fr 1fr; gap: 1em;}
-.search_box .submit{ background: #f1f1f1;}
+.search_box .submit{ background: #292826; color: #fff;}
 .search_box .reset{ background: #F9D342;}
+
+.price-filter {text-align: right; margin-right: 20%;}
+.price-filter a {color: #292826;}
 
 /* edit product */
 .products {text-align: center;}

@@ -27,6 +27,10 @@ session_start();
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <meta name="description" content="Shropshire based Tractors and Used Machinery Sales to UK and International">
         <meta name="keywords" content="Shropshire, Agricultural Machinery, Used Machinery, Tractors, Telehandlers, Trailers, UK, International">
+        <meta property="og:title" content="RP Machinery Sales | Buy used tractors, telehandlers or machinery"/> 
+        <meta property="og:description" content="Shropshire, Agricultural Machinery, Used Machinery, Tractors, Telehandlers, Trailers, UK, International"/>        
+        <meta property="og:site_name" content="RP Machinery Sales"/>        
+        <meta property="og:locale" content="en_GB"/>
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->

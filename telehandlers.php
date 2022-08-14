@@ -23,7 +23,7 @@ include('includes/dbh.inc.php');
                     <strong>Catergory:</strong>
                     <a href="tractors.php">Tractors</a> |
                     <a href="telehandlers.php">Telehandlers</a> |
-                    <a href="machinery.php">Used Machiner</a>
+                    <a href="machinery.php">Used Machinery</a>
                 </span>                
                 <span class="price-filter">
                     <p><strong>Price:</strong>

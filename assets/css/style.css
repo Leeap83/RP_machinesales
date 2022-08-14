@@ -117,7 +117,7 @@ select {height: 36px;}
 .search_box .submit{ background: #292826; color: #fff;}
 .search_box .reset{ background: #F9D342;}
 
-.filters {max-width: 1200px; margin: auto; display: flex;}
+.filters {max-width: 1200px; margin: auto; display: grid;}
 
 .filters a {color: #292826;}
 
@@ -265,6 +265,7 @@ textarea {width: 100%;height: 300px; border: transparent;}
   .image_container {display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap:1em;}
   .column img {width: 180px; height: 180px;}
   .price-filter {right: 15%;position: absolute;}
+  .filters {max-width: 1200px; margin: auto; display: flex;}
 } 
 
 @media only screen and (max-width: 600px) {

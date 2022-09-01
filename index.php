@@ -95,19 +95,7 @@
                 </div>
             </div>            
         </section>
-        <div id="simple-cookie-consent">
-            <div class="cookie-consent-container">
-                <div class="d-flex flex-row align-items-center"><img src="https://i.imgur.com/Tl8ZBUe.png" width="40">
-                    <div class="cookie_text">
-                        <span>This website uses cookies to ensure you get the best experience on our website.<br></span>
-                        <a class="learn-more" href="/terms#cookies">Learn more</a>
-                    </div>
-                </div>
-                <div class="cookie-consent-selection">
-                    <div class="back_btn"><button id=cookie_btn class="btn btn_bk" type="button">Okay</button></div>
-                </div>
-            </div>
-        </div>
+        
     
         <div id="fb-root"></div>
     <?php include('templates/footer.php') ?>
@@ -117,37 +105,6 @@
     </style>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="vLjHYBlt"></script>
 
-    <script>
-        setCookie = (cName, cValue, expDays) => {
-            let date = new Date();
-            date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
-            const expires = "expires =" + date.toUTCString();
-            document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
-        }
-
-        getCookie = (cName) => {
-            const name = cName + "=";
-            const cDecoded = decodeURIComponent(document.cookie);
-            const cArr = cDecoded.split(";");
-            let value;
-            cArr.foreach(val => {
-                if(val.indexOf(name) === 0) value = val.substring(name.length);
-            })
-
-            return value;
-        }
-
-        document.querySelector("#cookie_btn").addEventListener("click", () => {
-            document.querySelector("#simple-cookie-consent").style.display = "none";
-            setCookie("cookie", true, 30);
-        })
-
-        cookieMessage = () => {
-            if(!getCookie("cookie")) 
-                document.querySelector("#simple-cookie-consent").style.display = "block";
-        }
-
-        window.addEventListener("load", cookieMessage);
-    </script>
+    
 </body>
 </html>

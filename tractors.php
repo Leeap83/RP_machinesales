@@ -52,6 +52,8 @@ $resultCheck = mysqli_num_rows($result); ?>
                     } elseif ($sortby = 'pricelohi') {
                         $sql = "SELECT * FROM products WHERE category = 'tractors' ORDER BY price ASC";
                     } 
+                } else {
+                    $sql = "SELECT * FROM products ORDER BY in_stock DESC";
                 }
                 $result = mysqli_query($conn, $sql);
                 $resultCheck = mysqli_num_rows($result);                

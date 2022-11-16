@@ -49,6 +49,8 @@ include('includes/dbh.inc.php');
                     } elseif ($sortby = 'pricelohi') {
                         $sql = "SELECT * FROM products ORDER BY price ASC";
                     } 
+                } else {
+                    $sql = "SELECT * FROM products ORDER BY in_stock DESC";
                 }
                 $result = mysqli_query($conn, $sql);
                 $resultCheck = mysqli_num_rows($result);

@@ -64,7 +64,7 @@ include('includes/dbh.inc.php');
                                     </div>
                                 <?php
                                 } elseif ($row['in_stock'] == '2') {?>
-                                    <div class="img_container">
+                                    <div class="img_container_cs">
                                         <span>COMING SOON</span> 
                                         <img src="<?= $row['main_image'] ?>" width="300" height="300" alt="<?= $row['product_name'] ?>">
                                     </div>

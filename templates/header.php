@@ -24,6 +24,14 @@ session_start();
         <meta property="og:site_name" content="RP Machinery Sales"/>        
         <meta property="og:locale" content="en_GB"/>
     </head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVYWCHXZY9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-PVYWCHXZY9');
+    </script>
     <body>
     
         <header>

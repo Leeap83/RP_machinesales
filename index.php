@@ -96,7 +96,7 @@
                 </div>
             </div>            
         </section>
-        <img src="https://www.jpmtrailers.com/site/wp-content/themes/websiteni-stripped/images/jpm-logo.png" alt="JPM Trailers">
+        
     
         <div id="fb-root"></div>
     <?php include('templates/footer.php') ?>

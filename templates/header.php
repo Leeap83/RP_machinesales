@@ -23,6 +23,9 @@ session_start();
         <meta property="og:description" content="Shropshire, Agricultural Machinery, Used Machinery, Tractors, Telehandlers, Trailers, UK, International"/>        
         <meta property="og:site_name" content="RP Machinery Sales"/>        
         <meta property="og:locale" content="en_GB"/>
+        <meta property="og:image" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://rpmachinerysales.co.uk/">
     </head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVYWCHXZY9"></script>
     <script>

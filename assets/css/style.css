@@ -259,7 +259,7 @@ textarea {width: 100%;height: 300px; border: transparent;}
   .product_grid {display: grid;grid-template-columns: repeat(4, 1fr);}
   .cta {grid-template-columns: 1fr 1fr;}
   .contact_grid {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 1em;}
-  .details {display: grid;grid-template-columns: 170px 400px 500px;}
+  .details {display: grid;grid-template-columns: 1fr 1fr;}
   .table_contain { padding: 2em;}
   .product_item {padding-top: 0;}
   .product_details.contain {grid-template-columns: 1fr 1fr;}

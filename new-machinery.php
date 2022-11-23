@@ -9,7 +9,7 @@ $resultCheck = mysqli_num_rows($result); ?>
 <main>
     <div class="wrapper-main">
         <div class="product-section">
-            <h1>Used Machinery</h1> 
+            <h1>New Machinery</h1> 
             <form action="products.php" method="POST" class="search-form">            
                 <input type="text"  class="search-field" name="search" placeholder="Search here...">
                 <div class="search_box">

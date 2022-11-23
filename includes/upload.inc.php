@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
         $fileName = basename($_FILES["image"]["name"]);
         $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
 
-        $allowTypes = array('jpg', 'png', 'jpeg', 'gif', 'JPG', 'mov');
+        $allowTypes = array('jpg', 'png', 'jpeg', 'gif', 'JPG', 'mov', 'MOV');
         if (in_array($fileType, $allowTypes)) {
             $image_source = file_get_contents($_FILES['image']['tmp_name']);
 

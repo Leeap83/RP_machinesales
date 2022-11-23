@@ -46,7 +46,9 @@ if (isset($_GET['id'])) {
                     <?php if ($result_check['video']) {?>
                     <h3>Product Video</h3>
                     <div class="video">
-                        <iframe width="100%" height="315" src="<?= $result_check['video'] ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video width="600" height="400" controls autoplay loop>
+                            <source src="<?= $result_check['video'] ?>" type="video/mp4">
+                        </video>
                     </div>
                     <?php 
                     }?>

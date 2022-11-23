@@ -110,6 +110,7 @@ select {height: 36px;}
 .product_content h1 {padding: 0; text-align: left;}
 .product_image h3 {text-align: left;}
 .card_container p {margin-bottom: 0;}
+video {max-width: 100%;height: auto; max-height: 100%;}
 
 /* search box */
 .search-form {display: flex; flex-wrap: wrap; padding: 2em; max-width: 1000px; margin: auto; gap: 1em; }

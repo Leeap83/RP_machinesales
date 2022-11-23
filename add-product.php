@@ -30,6 +30,7 @@ $row = mysqli_fetch_assoc($result);
                                     <option value="tractors">Tractors</option>
                                     <option value="telehandlers">Telehandlers</option>
                                     <option value="machinery">Machinery</option>
+                                    <option value="new">New Machinery</option>
                                 </select>
                                 <textarea name="description" id="description" placeholder="Description"></textarea>
                                 <input type="text" name="price" placeholder="Price">

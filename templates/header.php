@@ -23,7 +23,7 @@ session_start();
         <meta property="og:description" content="Shropshire, Agricultural Machinery, Used Machinery, Tractors, Telehandlers, Trailers, UK, International"/>        
         <meta property="og:site_name" content="RP Machinery Sales"/>        
         <meta property="og:locale" content="en_GB"/>
-        <meta property="og:image" content="">
+        <meta property="og:image" content="https://i.imgur.com/Riqd9SE.png">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://rpmachinerysales.co.uk/">
     </head>
@@ -52,6 +52,7 @@ session_start();
                                 <ul>
                                     <li class="nav-item"><a class="nav-link sub_menu" href="tractors.php">Tractors</a></li>
                                     <li class="nav-item"><a class="nav-link sub_menu" href="telehandlers.php">Telehandlers</a></li>
+                                    <li class="nav-item"><a class="nav-link sub_menu" href="new-machinery.php">New Machinery</a></li>
                                     <li class="nav-item"><a class="nav-link sub_menu" href="machinery.php">Used Machinery</a></li>
                                 </ul>
                             </li>

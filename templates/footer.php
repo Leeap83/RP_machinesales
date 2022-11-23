@@ -35,7 +35,7 @@
                         </a>
                     </div>
                     <div class="dealers">
-                        <p>Proud Dealers of</p>
+                        <p class="text-white">Proud Dealers of</p>
                         <div>
                             <a href="https://www.jpmtrailers.com/"><img src="https://www.jpmtrailers.com/site/wp-content/themes/websiteni-stripped/images/jpm-logo.png" class="jpm-logo" alt="JPM Trailers"></a>
                             <a href="https://www.harrywest.co.uk/">

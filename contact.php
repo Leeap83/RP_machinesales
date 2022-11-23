@@ -27,7 +27,8 @@
                         </div>
                     </div>
                     <div class="details">
-                        <div class="details_items"><span class="text-yellow">Tel: </span>07792 715169</div>
+                        <div class="details_items"><span class="text-yellow">Tel: </span>01948 532055</div>
+                        <div class="details_items"><a href="https://wa.me/7792715169" target="_blank"  class="text-yellow">Whatsapp</a></div>
                         <div class="details_items"><span class="text-yellow">Email: </span>enquiries@rpmachinerysales.co.uk</div>
                         <div class="details_items"><span class="text-yellow">Address: </span>School Farm, Lower Heath, Whitchurch SY13 2BQ</div>
                     </div>

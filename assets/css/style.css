@@ -270,7 +270,7 @@ textarea {width: 100%;height: 300px; border: transparent;}
   .about-grid {grid-template-columns: repeat(3, 1fr);}
   .sectors-grid {grid-template-columns: repeat(2, 1fr);}
   .hero_section {background: #292826 url(/images/hero_img.png);height: 60vh;opacity: 0.9;background-position: center!important;background-size: cover!important;background-repeat: no-repeat!important;}
-  .footer-links {display: grid; grid-template-columns: 250px 5fr 2fr;}
+  .footer-links {display: grid; grid-template-columns: 250px 5fr 2fr 2fr;}
   .exports-section .contain {border-radius: 8px;}
   .product_grid {display: grid;grid-template-columns: repeat(4, 1fr);}
   .cta {grid-template-columns: 1fr 1fr;}

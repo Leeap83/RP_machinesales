@@ -157,7 +157,7 @@ a.footer-logo {margin: 0;clear: both;}
 .foot-grid a {padding: 1em;margin: 10px 0;}
 .footer-logo img {position: relative;vertical-align: middle;}
 .footer-links a {text-align: center;}
-.social-links {float: right;align-items: center;display: grid;justify-items: center;grid-template-columns: 1fr 1fr 1fr;grid-column-gap: 1em; padding: 2em;}
+.social-links {float: right;align-items: center;display: grid;justify-items: center;grid-template-columns: 1fr 1fr 1fr 1fr;grid-column-gap: 1em; padding: 2em;}
 .social-links a img {height: 30px;vertical-align: middle;}
 
 /* form */

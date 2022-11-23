@@ -23,7 +23,7 @@ $row = mysqli_fetch_assoc($result);
                         <a href="admin.php" class="btn btn_bk">Back</a>
                     </div>
                     <?php
-                    $sql = "SELECT * FROM products";
+                    $sql = "SELECT * FROM products ORDER BY in_stock DESC";
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result); ?>                    
                     

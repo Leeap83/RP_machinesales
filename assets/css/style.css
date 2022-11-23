@@ -234,6 +234,21 @@ img.hover-shadow {transition: 0.3s;}
 .details_items a {color: #fff;}
 .thanks p {text-align: center; font-size: 1.2em;}
 
+
+.west-logo .st1 {
+  fill: #007d9f;
+}
+.west-logo .st0 {
+  fill: #fcd206;
+}
+
+.west-logo svg {
+  max-width: 100px;
+}
+
+.jpm-logo {
+  max-width: 100px;
+}
 /* cookies */
 #simple-cookie-consent {height: 100vh;width: 100vw;position: fixed;top: 0;left: 0;resize: vertical;overflow: auto;z-index: 999999999;background: rgba(0, 0, 0, 0.7);display: none;}
 #simple-cookie-consent .cookie-consent-container {position: absolute;top: 50%;left: 20px;right: 20px;margin: -100px auto 0;background: #292826;padding: 20px;max-width: 500px;}

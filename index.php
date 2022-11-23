@@ -84,6 +84,7 @@
                         <div class="about bg_black" id="about-us">
                             <h2>Who are we?</h2>
                             <p>RP Machinery is a Shropshire based family business that specialises in selling used machinery. We deliver across the UK and internationally.</p>
+                            <p>We are proud dealers for <a href="https://www.jpmtrailers.com/" target="_blank">JPM Trailers</a> and <a href="https://www.harrywest.co.uk/">Harry West</a> Harry West.</p>
                             <p>Our stock is regularly changing, so if you can't find what you are looking for on our website, then please don't hesitate to get in touch - just because it's not listed doesn't mean we don't have it. </p>
                             <p>Alternatively, you can follow us on <a href="https://www.facebook.com/rp.machinery.sales/">Facebook</a> for recent posts and all our latest product updates.</p>    
                         </div>
@@ -95,7 +96,7 @@
                 </div>
             </div>            
         </section>
-        
+        <img src="https://www.jpmtrailers.com/site/wp-content/themes/websiteni-stripped/images/jpm-logo.png" alt="JPM Trailers">
     
         <div id="fb-root"></div>
     <?php include('templates/footer.php') ?>

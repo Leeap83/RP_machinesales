@@ -18,12 +18,12 @@
                 
                 if ($result) {
                     $_SESSION['message'] = "Product Deleted Successfully";
-                    header('Location:edit-product.php');
+                    header('Location: edit-product.php');
                     exit(0);
 
                 } else {
                     $_SESSION['message'] = "Product Not Deleted";
-                    header('Location:edit-product.php');
+                    header('Location: edit-product.php');
                     exit(0);
                 }
             } 

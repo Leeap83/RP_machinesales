@@ -30,7 +30,7 @@
                         <div class="details_items"><span class="text-yellow">Tel: </span>01948 532055</div>
                         <div class="details_items"><span class="text-yellow">Email: </span>enquiries@rpmachinerysales.co.uk</div>
                         <div class="details_items"><a href="https://wa.me/7792715169" target="_blank"><span class="text-yellow">Whatsapp: </span>07792715169</a></div>
-                        <div class="details_items"><span class="text-yellow">Address: </span>School Farm, Lower Heath, Whitchurch SY13 2BQ</div>
+                        <div class="details_items"><span class="text-yellow">Address: </span>The Firs Farm Barn, Astley, Hadnall, Shrewsbury, Shropshire, SY4 4BX</div>
                     </div>
                 </div>
             </div>
